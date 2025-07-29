@@ -1,0 +1,95 @@
+/*
+Theme Name:     Twenty Twenty-Five Child
+Template:       twentytwentyfive
+Version:        1.0
+*/
+
+.error {
+    background: #fee;
+    border: 1px solid #f00;
+    padding: 10px;
+    margin-bottom: 1em;
+    color: #900;
+}
+
+.site-header-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: #f8f8f8;
+  text-align: center;
+  flex-direction: column;
+}
+
+.site-branding-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-branding-login img {
+  max-width: 150px;
+  height: auto;
+}
+
+.login-heading {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sci-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.custom-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.success-message {
+  background-color: #e6ffed;
+  border: 1px solid #b2f2bb;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  color: #2e7d32;
+  text-align: center;
+}
+
+.register-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.edgar-intro {
+    padding: 20px;
+    margin-top: 10px;
+}
