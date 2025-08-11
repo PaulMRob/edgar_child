@@ -9,9 +9,10 @@
       "fontSizes": [
         {
           "slug": "medium",
-          "size": "15px",
+          "size": "14px",
           "name": "Medium"
         }
+
       ]
     }
   }
