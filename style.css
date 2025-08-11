@@ -4,10 +4,6 @@ Template:       twentytwentyfive
 Version:        1.0
 */
 
-:root {
-  --wp--preset--font-size--medium: 14px;
-}
-
 .error {
     background: #fee;
     border: 1px solid #f00;

@@ -4,6 +4,15 @@
     "layout": {
       "contentSize": "80% vw",
       "wideSize": "95% vw"
+    },
+    "typeography": {
+      "fontSizes": [
+        {
+          "slug": "medium",
+          "size": "15px",
+          "name": "Medium"
+        }
+      ]
     }
   }
 }
