@@ -63,6 +63,12 @@ get_template_part( 'header', 'login' ); ?>
     </section>
 </main>
 </div>
+<div>
+    <h4>DISCLAIMER!</h4>
+    <p>
+        By creating an account, you consent to the collection and processing of your personal data in accordance with our Privacy Policy. We use this data to provide and improve our services. You have the right to access, modify, or delete your data at any time. Read our [Privacy Policy] for more information.
+    </p>
+</div>
 <div class="edgar-intro">
     <p>
         The “Experimental Data and Geometric Analysis Repository”, or EDGAR is an Internet-based archive of curated data that are freely distributed to the international research community for the application and validation of electrocardiographic imaging (ECGI) techniques. The EDGAR project is a collaborative effort by the Consortium for ECG Imaging (CEI, ecg-imaging.org), and focused on two specific aims. One aim is to host an online repository that provides access to a wide spectrum of data , and the second aim is to provide a standard information format for the exchange of these diverse datasets.

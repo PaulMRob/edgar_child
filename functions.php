@@ -61,3 +61,11 @@ add_action('template_redirect', function() {
         exit;
     }
 });
+
+add_action( 'loop_start', function() {
+    if ( is_category( 'research' ) && ! is_paged() ) { 
+        echo '<p class="category-disclaimer" style="background: #f9f9f9; padding: 10px; border: 1px solid #ddd;">
+                Animal Research Disclaimer: We are committed to the ethical and responsible use of animals in medical research. All studies involving animals are conducted in full compliance with applicable animal care and use guidelines, including those established by the U.S. Public Health Service Policy on Humane Care and Use of Laboratory Animals and the European Directive 2010/63/EU. Our protocols are reviewed and approved by institutional animal care and use committees (IACUCs) or equivalent bodies to ensure the highest standards of animal welfare.
+              </p>';
+    }
+});

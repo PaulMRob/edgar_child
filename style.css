@@ -12,6 +12,10 @@ Version:        1.0
     color: #900;
 }
 
+p {
+  font-size: 0.9em !important;
+}
+
 .site-header-login {
   display: flex;
   justify-content: center;
