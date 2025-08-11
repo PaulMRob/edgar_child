@@ -4,16 +4,16 @@ Template:       twentytwentyfive
 Version:        1.0
 */
 
+:root {
+  --wp--preset--font-size--medium: 14px;
+}
+
 .error {
     background: #fee;
     border: 1px solid #f00;
     padding: 10px;
     margin-bottom: 1em;
     color: #900;
-}
-
-p {
-  font-size: 14px !important;
 }
 
 .site-header-login {
